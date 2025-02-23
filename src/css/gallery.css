@@ -1,0 +1,32 @@
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+body {
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  transition: transform 300ms ease-in;
+}
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+.sl-overlay {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+.sl-close,
+.sl-counter,
+.sl-navigation button {
+  color: #fff !important;
+}
