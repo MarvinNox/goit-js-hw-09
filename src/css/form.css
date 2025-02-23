@@ -7,7 +7,7 @@ body {
   background-color: rgba(211, 208, 208, 0.7);
 }
 .feedback-form {
-  margin: auto;
+  margin: 25vh auto 24px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -60,4 +60,14 @@ button {
 }
 button:hover {
   background: #6c8cff;
+}
+.back-home {
+  max-width: 95px;
+  max-height: 40px;
+  padding: 8px 16px;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 18px;
+  margin: 24px auto 0;
 }
