@@ -78,9 +78,7 @@ let markup = images.map(({preview, original, description}) =>
 const gallery = document.querySelector(".gallery");
 gallery.innerHTML = markup;
 
-let modalGallery = new SimpleLightbox('.gallery-item a', {
-    overlayOpacity: 0.9,
+let modalGallery = new SimpleLightbox('.gallery a', {
     captionsData: "alt",
-    captionDelay: 250,
-    navText: ["&#11207;", "&#11208;"],
+    captionDelay: 250
 });
