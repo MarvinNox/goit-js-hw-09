@@ -2,7 +2,6 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 body {
   background-color: rgba(211, 208, 208, 0.7);

@@ -84,6 +84,5 @@ let modalGallery = new SimpleLightbox('.gallery-item a', {
     overlayOpacity: 0.9,
     captionsData: "alt",
     captionDelay: 250,
-    navText: ["&ltri;", "&rtri;"],
-    animationSpeed: 150
+    navText: ["&#11207;", "&#11208;"],
 });
