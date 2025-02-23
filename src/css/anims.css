@@ -1,0 +1,11 @@
+@keyframes jumping-bttn {
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+  50% {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 10px rgba(111, 128, 224, 0.9);
+  }
+}

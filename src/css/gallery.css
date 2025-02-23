@@ -2,6 +2,7 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
+@import url('./anims.css');
 
 body {
   justify-content: center;
@@ -36,6 +37,10 @@ body {
   background: #4e75ff;
   color: #fff;
   font-size: 20px;
-  border-radius: 18px;
+  border-radius: 12px;
   margin: 24px auto 0;
+}
+.back-home:hover {
+  animation: jumping-bttn 1.2s ease-in;
+  animation-iteration-count: infinite;
 }

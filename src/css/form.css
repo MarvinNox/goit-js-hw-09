@@ -2,6 +2,7 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
+@import url('./anims.css');
 
 body {
   background-color: rgba(211, 208, 208, 0.7);
@@ -58,7 +59,8 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
 }
-button:hover {
+button:hover,
+.back-home:hover {
   background: #6c8cff;
 }
 .back-home {
@@ -68,6 +70,11 @@ button:hover {
   background: #4e75ff;
   color: #fff;
   font-size: 20px;
-  border-radius: 18px;
+  border-radius: 12px;
   margin: 24px auto 0;
+}
+.back-home:hover {
+  background: #6c8cff;
+  animation: jumping-bttn 1.2s ease-in;
+  animation-iteration-count: infinite;
 }
